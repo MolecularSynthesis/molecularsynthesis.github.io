@@ -1,0 +1,98 @@
+/*NAVBAR*/
+/*allineamento elementi navbar su pc*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/* rimuovi brand su pc*/
+@media (min-width: 768px) {
+    .navbar-brand{
+        display:none;
+    }
+    .navbar-text{
+        display:none;
+    }
+}
+/*allineamento elementi menù*/
+@media (min-width: 768px) {
+    .navbar-nav li{
+        margin-left: 50px;
+    }
+    /*correzione problemi allineamento*/
+    .navbar-nav {
+        margin-left: -48px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-nav li{
+        margin-left: 10px;
+    }
+}
+/*colori*/
+.navbar-inverse {
+    background-color: rgb(35,35,35);
+    border-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 7px; /*tracking*/
+    margin-left: 10px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #333333;
+}
+.navbar-inverse .navbar-text {
+    font-family: "Courier New", monospace;
+}
+
+/*COPERTINA*/
+.copertina {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(35,35,35);
+    /*centrare contenuto*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;   
+}
+#titolo {
+    font-family: "Courier New", monospace;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 14px; /*tracking*/
+    padding-left: 14px; /*aggiustare casini tracking*/
+    color: white;
+}
+#sottotitolo {
+    margin-top: -15px;
+    color: #999999;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}
+#sottosottotitolo {
+    color: #999999;
+    font-size: 12px;
+}
