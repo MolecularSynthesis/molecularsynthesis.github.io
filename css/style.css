@@ -200,13 +200,9 @@
     font-size: 20px;
 }*/
 /*CHISIAMO NERO*/
-    @media (min-width: 768px) {
-        .chisiamo {
-            padding-top: 90px;
-        }
-}
 .chisiamo {
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 80px;
     background-color: rgb(15,15,15);
     color: white;
 }
@@ -227,6 +223,9 @@
     font-family: "Courier New", monospace;
     font-size: 20px;
 }
+.chisiamo p {
+    margin-bottom: 30px;
+}
 
 .titolo-sezione {
     text-align:center;
@@ -246,6 +245,7 @@
 }
 .eng {
     color: #999999;
+    font-family: "Courier New", monospace;
 }
 /*PROFILI*/
 .profilo {
