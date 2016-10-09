@@ -1,5 +1,19 @@
+/*ELEMENTI VARI BOOTSTRAP*/
+.row {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.padding {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /*NAVBAR*/
 /*allineamento elementi navbar su pc*/
+.navbar {
+    padding-top: 7px;
+}
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -36,9 +50,18 @@
     }
 }
 /*colori*/
-.navbar-inverse {
-    background-color: rgb(35,35,35);
-    border-color: transparent;
+@media (max-width: 767px) {
+    .navbar-inverse {
+        background-color: rgb(15,15,15);
+        border-color: transparent;
+        border-bottom: 0.3px solid white;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: transparent;
@@ -62,13 +85,16 @@
 }
 
 /*COPERTINA*/
+#sfondo {
+    z-index: -1;
+    overflow: hidden;
+}
 .copertina {
-    position: absolute; 
-    width: 100%; 
-    height: 100%; 
-    top: 0; 
-    left: 0;
-    background-color: rgb(35,35,35);
+    /*dimensioni uguali alla viewport*/
+    width = 100%;
+    height = 100vh;
+    min-height: 100vh;
+    background-color: transparent;
     /*centrare contenuto*/
     display: -webkit-flex;
     display: flex;
@@ -76,7 +102,9 @@
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-    text-align: center;   
+    text-align: center; 
+    /*background-image: url("../imgs/tempBG.jpg");
+    background-size: cover;*/
 }
 #titolo {
     font-family: "Courier New", monospace;
@@ -95,4 +123,105 @@
 #sottosottotitolo {
     color: #999999;
     font-size: 12px;
+}
+
+/*SEZIONI*/
+/*CHISIAMO BIANCO*/
+/*.chisiamo {
+    padding-bottom: 40px;
+    border-bottom: 0.3px solid rgb(15,15,15);
+}
+.titolo-sezione {
+    text-align:center;
+}
+.titolo-sezione h2 {
+    font-family: "Courier New", monospace;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 8px;
+    padding-left: 8px;
+}
+.titolo-sezione h3 {
+    margin-top: -8px;
+    color: #999999;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}*/
+/*CHISIAMO NERO*/
+.chisiamo {
+    padding-bottom: 40px;
+    background-color: rgb(15,15,15);
+    color: white;
+}
+.titolo-chisiamo {
+    text-align:center;
+    color: white;
+}
+.titolo-chisiamo h2 {
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 8px;
+    padding-left: 8px;
+    color: white;
+}
+.titolo-chisiamo h3 {
+    margin-top: -8px;
+    color: #999999;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}
+
+.titolo-sezione {
+    text-align:center;
+    color: white;
+}
+.titolo-sezione h2 {
+    font-size: 36px;
+    letter-spacing: 8px;
+    padding-left: 8px;
+    color: #555555;
+}
+.titolo-sezione h3 {
+    margin-top: -8px;
+    color: #999999;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}
+.eng {
+    color: #999999;
+}
+/*PROFILI*/
+.profilo {
+    border-bottom: 1px solid rgb(15,15,15);
+}
+
+.descrizione {
+    padding-top:25px;
+    margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+    .descrizione h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .descrizione h5 {
+        margin-top: -5px;
+        text-align: center;
+    }
+}
+
+.descrizione h4 {
+    font-size: 20px;
+}
+.descrizione h5 {
+    margin-top: -5px;
+}
+.descrizione p {
+    margin-top: 20px;
+}
+.foto {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
