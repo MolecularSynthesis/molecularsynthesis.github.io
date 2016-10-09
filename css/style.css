@@ -26,6 +26,7 @@
     }
 }
 /* rimuovi brand su pc*/
+
 @media (min-width: 768px) {
     .navbar-brand{
         display:none;
@@ -47,6 +48,11 @@
 @media (max-width: 767px) {
     .navbar-nav li{
         margin-left: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .navbar-text{
+        display:none;
     }
 }
 /*colori*/
