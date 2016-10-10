@@ -171,6 +171,24 @@
     color: #999999;
     font-size: 12px;
 }
+/*Freccia per scorrere*/
+.downImg {
+    height: 30px;   
+}
+#down {
+    height: 95px;
+    margin-top: -95px;
+    text-align: center;
+}
+#down a {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+}
+#down a:hover {
+    color: #999999;
+}
 
 /*SEZIONI*/
 /*CHISIAMO BIANCO*/
