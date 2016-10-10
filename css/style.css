@@ -244,7 +244,7 @@
 .chisiamo p {
     margin-bottom: 30px;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 15px;
 }
 @media (max-width: 767px) {
     .chisiamo p {
