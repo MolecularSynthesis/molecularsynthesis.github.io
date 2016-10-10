@@ -298,6 +298,43 @@ footer {
     padding-top: 45px;
     padding-bottom: 60px;
 }
-footer img {
+@media (max-width: 500px) {
+    .logo {
+        display: none;       
+    } 
+}
+.logo {
+    margin-top: 15px;
     float:left;
+    height: 80px;
+    margin-right: 15px;
+}
+.foot {
+    float:left;
+}
+.foot h3 {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.foot p {
+    color: #999999;
+}
+.foot li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.foot li ul a {
+    color: #999999;
+}
+.foot li ul a:hover {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 500px) {
+    .foot li {
+        display: none;       
+    } 
 }
