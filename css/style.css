@@ -9,11 +9,6 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-a {
-    color: rgb(15,15,15);
-    text-decoration: underline;
-    
-}
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
 @media (min-width: 768px) {
@@ -261,6 +256,14 @@ a {
     font-family: "Courier New", monospace;
 }
 /*PROFILI*/
+.slack {
+    color: rgb(15,15,15);
+    text-decoration: underline;
+}
+.slack:hover {
+    color: #999999;
+    text-decoration: none;
+}
 .profilo {
     border-bottom: 1px solid rgb(15,15,15);
 }
