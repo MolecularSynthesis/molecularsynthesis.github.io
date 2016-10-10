@@ -290,3 +290,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/*FOOTER*/
+footer {
+    background-color: rgb(15,15,15);
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+footer img {
+    float:left;
+}
