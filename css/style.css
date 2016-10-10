@@ -291,6 +291,30 @@
     margin-right: auto;
 }
 
+/*CLIENTI*/
+.clienti {
+    border-bottom: 1px solid rgb(15,15,15);
+    padding-bottom: 80px;
+}
+
+.logoClienti {
+    margin-top: 15px;
+    float:left;
+    height: 120px;
+    margin-right: 15px;
+}
+.clienti .foot div {
+    padding-top: 15px;
+}
+.clienti .foot div h3 {
+    padding-left: 50px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0;
+}
+.clienti .foot div p {
+    padding-left: 50px;
+}
+
 /*FOOTER*/
 footer {
     background-color: rgb(15,15,15);
@@ -323,8 +347,11 @@ footer {
 }
 .foot li {
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 18px;
     padding-left: 50px;
+}
+.foot li ul {
+    margin-bottom: 8px;
 }
 .foot li ul a {
     color: #999999;
