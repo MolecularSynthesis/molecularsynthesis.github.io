@@ -49,7 +49,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">ABOUT <span class="sr-only">(current)</span></a></li>
+                    <li><a id="scrollDown" href="#">ABOUT <span class="sr-only">(current)</span></a></li>
                     <li><a href="/portfolio/">PORTFOLIO</a></li>
                     <li><a target="_blank" href="https://github.com/MolecularSynthesis">GITHUB</a></li>
                 </ul>
@@ -57,7 +57,7 @@
             </div><!-- /.container-fluid -->
         </nav>
         <!--Copertina-->
-        <div class="container-fluid copertina parallax-window" data-parallax="scroll" data-image-src="imgs/tempBG5.jpg">
+        <div class="container-fluid copertina parallax-window" data-parallax="scroll" data-image-src="imgs/tempBG5.jpg" id="top">
             <div>
                 <h1 id="titolo">MOLECULAR</h1>
                 <p id="sottotitolo">/məʊˈlɛkjʊlə/<br></p>
@@ -65,7 +65,7 @@
             </div>    
         </div>
         <!--Chi siamo-->
-        <div class="container-fluid chisiamo">
+        <div class="container-fluid chisiamo" id="skip">
             <div class="row">
                 <div class="col-lg-12 titolo-chisiamo">
                     <h2>CHI SIAMO</h2>
@@ -194,5 +194,7 @@
         <script src="js/parallax/parallax.js"></script>
         <!--script navbar scrolldown-->
         <script src="js/navbar/navbarScroll.js"></script>
+        <!--script autoscrollbar-->
+        <script src="js/scroll/scroll.js"></script>
     </body>
 </html>
