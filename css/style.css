@@ -9,6 +9,11 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+/*ELEMENTI VARI*/
+.black {
+    background-color: rgb(15,15,15);
+    color: white;
+}
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
 @media (min-width: 768px) {
