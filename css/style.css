@@ -11,8 +11,8 @@
 }
 /*ELEMENTI VARI*/
 .black {
-    background-color: rgb(15,15,15);
-    color: white;
+    background-color: rgb(15,15,15);!important
+    color: white;!important
 }
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
