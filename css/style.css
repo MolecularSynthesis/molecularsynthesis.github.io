@@ -26,7 +26,7 @@
     }
     .past-main .nav-title {
         display: inline; /*si vede dopo scrolldown*/
-        padding-top: 30px !important;
+        margin-top: 30px !important;
     }
     .nav-title {
         display: none; /*non si vede senza scrolldown*/
