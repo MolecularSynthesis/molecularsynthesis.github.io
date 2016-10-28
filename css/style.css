@@ -23,10 +23,10 @@
         -webkit-transition-duration: 1s; /* Safari */
         transition-duration: 1s;
         opacity: 0.9;
-        padding-top: 30px !important;
     }
     .past-main .nav-title {
         display: inline; /*si vede dopo scrolldown*/
+        padding-top: 30px !important;
     }
     .nav-title {
         display: none; /*non si vede senza scrolldown*/
