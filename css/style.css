@@ -23,14 +23,13 @@
         -webkit-transition-duration: 1s; /* Safari */
         transition-duration: 1s;
         opacity: 0.9;
-        padding-top: 20px;
     }
     .past-main .nav-title {
         display: inline; /*si vede dopo scrolldown*/
     }
     .nav-title {
         display: none; /*non si vede senza scrolldown*/
-        padding-top: 10px;
+        padding-top: 30px;
         text-align: center;
     }
     .nav-title a {
