@@ -26,7 +26,6 @@
     }
     .past-main .nav-title {
         display: inline; /*si vede dopo scrolldown*/
-        margin-top: 30px !important;
     }
     .nav-title {
         display: none; /*non si vede senza scrolldown*/
@@ -42,6 +41,7 @@
         letter-spacing: 7px;
         margin-left: 7px;
         margin-bottom: -8px;
+        padding-top: 30px !important;
     }
     .nav-title a:hover {
         text-decoration: none;
