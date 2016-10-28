@@ -29,7 +29,7 @@
     }
     .nav-title {
         display: none; /*non si vede senza scrolldown*/
-        padding-top: 30px;
+        margin-top: 30px;
         text-align: center;
     }
     .nav-title a {
