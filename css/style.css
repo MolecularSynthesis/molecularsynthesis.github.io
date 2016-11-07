@@ -416,7 +416,8 @@ footer {
     display: inline-block;
     text-align: center;
     vertical-align: center;
-    width: 100%;
+    padding-top:15px;
+    padding-left:100px;
 }
 .pre {
     float: left;
