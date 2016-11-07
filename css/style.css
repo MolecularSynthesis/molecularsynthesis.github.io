@@ -407,7 +407,9 @@ footer {
     margin: 0 auto;
 }
 .counter {
-    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .counter span {
     padding-left: 100px;
