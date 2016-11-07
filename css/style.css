@@ -451,9 +451,12 @@ button.pro:hover {
 #imgPanel1, #imgPanel2 {
     width: 75%;
     float: left;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    /*per altezza uguale*/
+    display: block;
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    left: 0px;
 }
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
