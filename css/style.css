@@ -422,7 +422,8 @@ footer {
     display: block;
     position: absolute;
     height: 100%;
-    right: 0;
+    right: 0px;
+    left: 0px;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -441,7 +442,8 @@ button.pre:hover {
     display: block;
     position: absolute;
     height: 100%;
-    right: 0;
+    right: 0px;
+    left: 0px;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
