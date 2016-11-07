@@ -405,7 +405,7 @@ footer {
 /*GALLERIE IMMAGINI*/ 
 .gallery {
     margin: 0 auto;
-    height: 300px;
+    height: 100%;
 }
 .pre {
     float:left;
@@ -440,6 +440,8 @@ button.pro:hover {
 #imgPanel1, #imgPanel2 {
     width: 75%;
     float: left;
+    
+    height: 100%;
 }
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
