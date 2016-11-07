@@ -415,7 +415,10 @@ footer {
         display: none;       
     } 
 }
-
+.colophon {
+    margin-top: 20px;
+    font-size: 10px;
+}
 
 /*----------------------------------AGGIORNAMENTI---------------------------------------*/
 /*GALLERIE IMMAGINI*/ 
