@@ -415,8 +415,9 @@ footer {
     } 
 }
 .colophon {
-    margin-top: 60px;
+    padding-top: 60px;
     font-size: 10px;
+    padding-bottom: 20px;
 }
 
 /*----------------------------------AGGIORNAMENTI---------------------------------------*/
