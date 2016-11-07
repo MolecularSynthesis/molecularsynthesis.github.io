@@ -427,6 +427,7 @@ footer {
     height: 40px;
     text-align: center;
     vertical-align: middle;
+    font-size: 16px;
 }
 button.pre:hover {
     color: rgb(15,15,15);
@@ -440,6 +441,7 @@ button.pre:hover {
     text-align: center;
     vertical-align: middle;
     float: right;
+    font-size: 16px;
 }
 button.pro:hover {
     color: rgb(15,15,15);
