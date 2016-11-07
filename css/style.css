@@ -413,8 +413,8 @@ footer {
     width: 100%;
 }
 .counter span {
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
 }
 .pre {
     float: left;
