@@ -15,6 +15,22 @@
     background-color: rgb(15,15,15)!important;
     color: white !important;
 }
+a {
+    color: rgb(15,15,15);
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(160,160,160);
+    text-decoration: none;
+}
+.whiteLink {
+    color: white;
+    text-decoration: underline;
+}
+.whiteLink:hover {
+    color: rgb(160,160,160);
+    text-decoration: none;
+}
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
