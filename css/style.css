@@ -420,9 +420,7 @@ footer {
     vertical-align: middle;
     /*per altezza uguale*/
     display: block;
-    position: absolute;
     height: 100%;
-    left: 0px;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -439,9 +437,7 @@ button.pre:hover {
     vertical-align: middle;
     /*per altezza uguale*/
     display: block;
-    position: absolute;
     height: 100%;
-    left: 0px;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
