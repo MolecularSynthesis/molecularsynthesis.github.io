@@ -406,13 +406,7 @@ footer {
 .gallery {
     margin: 0 auto;
     overflow: hidden;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
- 
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    display: relative;
 }
 .pre {
     float:left;
@@ -425,9 +419,10 @@ footer {
     text-align: center;
     vertical-align: middle;
     
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    position: absolute;
+    height: 100%;
+    right: 0;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -443,9 +438,10 @@ button.pre:hover {
     text-align: center;
     vertical-align: middle;
     
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    position: absolute;
+    height: 100%;
+    right: 0;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
