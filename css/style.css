@@ -412,18 +412,22 @@ footer {
     background-color: rgb(15,15,15);
     border-width: 0px;
     color: white;
+    width: 25px;
+    height: inherit;
 }
-.pre:hover {
-    background-color: rgb(50,50,50);
+button.pre:hover {
+    background-color: rgb(80,80,80);
 }
 .pro{
     float:left;
     background-color: rgb(15,15,15);
     border-width: 0px;
     color: white;
+    width: 25px;
+    height: inherit;
 }
-.pre:hover {
-    background-color: rgb(50,50,50);
+button.pro:hover {
+    background-color: rgb(80,80,80);
 }
 #imgPanel1, #imgPanel2 {
     width: 75%;
