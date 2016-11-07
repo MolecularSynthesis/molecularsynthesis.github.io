@@ -406,3 +406,7 @@ footer {
 #imgPanel1, #imgPanel2 {
     width: 75%;
 }
+.aggiornamento{
+    border-bottom: 1px solid rgb(15,15,15);
+    padding-bottom: 50px;
+}
