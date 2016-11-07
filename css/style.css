@@ -438,7 +438,7 @@ button.pro:hover {
     background-color: rgb(80,80,80);
 }
 #imgPanel1, #imgPanel2 {
-    width: 75%;
+    /*width: 75%;*/
     float: left;
     
     height: 100%;
