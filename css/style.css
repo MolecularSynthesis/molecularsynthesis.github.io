@@ -413,9 +413,8 @@ footer {
     width: 100%;
 }
 .counter span {
-    padding-left: 100px;
-    padding-right: 100px;
-    float: none;
+    display: block;
+    margin: 0 auto;
 }
 .pre {
     float: left;
@@ -444,7 +443,7 @@ button.pro:hover {
     background-color: rgb(80,80,80);
 }
 #imgPanel1, #imgPanel2 {
-    width: 75%;
+    width: 100%;
 }
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
