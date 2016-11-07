@@ -370,7 +370,6 @@ footer {
     background-color: rgb(15,15,15);
     color: white;
     padding-top: 45px;
-    padding-bottom: 60px;
 }
 @media (max-width: 500px) {
     .logo {
@@ -416,7 +415,7 @@ footer {
     } 
 }
 .colophon {
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 10px;
 }
 
