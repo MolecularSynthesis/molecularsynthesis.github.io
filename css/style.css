@@ -442,7 +442,6 @@ button.pre:hover {
     display: block;
     position: absolute;
     height: 100%;
-    right: 0px;
     left: 0px;
 }
 button.pro:hover {
