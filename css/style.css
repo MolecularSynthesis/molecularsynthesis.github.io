@@ -413,8 +413,10 @@ footer {
     border-width: 0px;
     color: white;
     width: 40px;
-    height: 500px;
+    height: 100%;
     overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -425,8 +427,10 @@ button.pre:hover {
     border-width: 0px;
     color: white;
     width: 40px;
-    height: 500px;
+    height: 100%;
     overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
