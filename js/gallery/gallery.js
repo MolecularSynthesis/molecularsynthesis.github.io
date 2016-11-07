@@ -1,5 +1,9 @@
-function pro1() {
-                var img = document.getElementById("imgPanel1");
+//aggiornamento1
+
+
+//aggiornamento2
+function pro2() {
+                var img = document.getElementById("imgPanel2");
                 for (i=1; i<=20; i++) {
                     if (Number(img.title)==i) {
                         i++
@@ -14,8 +18,8 @@ function pro1() {
                     }
                 }
             }
-function pre1() {
-                var img = document.getElementById("imgPanel1");
+function pre2() {
+                var img = document.getElementById("imgPanel2");
                 for (i=20; i>=1; i--) {
                     if (Number(img.title)==i) {
                         i--
