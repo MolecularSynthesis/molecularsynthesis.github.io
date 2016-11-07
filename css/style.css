@@ -403,9 +403,21 @@ footer {
 
 /*----------------------------------AGGIORNAMENTI---------------------------------------*/
 /*GALLERIE IMMAGINI*/ 
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pre {
+    float:left;
+    background-color: rgb(15,15,15);
+}
+.pro{
+    float:left;
+    background-color: rgb(15,15,15);
+}
 #imgPanel1, #imgPanel2 {
     width: 75%;
-    margin: 0 auto;
+    float: left;
 }
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
