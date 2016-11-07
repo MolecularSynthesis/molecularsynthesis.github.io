@@ -405,8 +405,6 @@ footer {
 /*GALLERIE IMMAGINI*/ 
 .gallery {
     margin: 0 auto;
-    /*per altezza uguale*/
-    display: relative;
 }
 .pre {
     float:left;
@@ -418,9 +416,6 @@ footer {
     overflow: hidden;
     text-align: center;
     vertical-align: middle;
-    /*per altezza uguale*/
-    display: block;
-    height: 100%;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -435,9 +430,6 @@ button.pre:hover {
     overflow: hidden;
     text-align: center;
     vertical-align: middle;
-    /*per altezza uguale*/
-    display: block;
-    height: 100%;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
