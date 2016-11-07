@@ -406,7 +406,7 @@ footer {
 .gallery {
     margin: 0 auto;
     height: 100%;
-    max-height: 400px;
+    height: 400px;
 }
 .pre {
     float:left;
