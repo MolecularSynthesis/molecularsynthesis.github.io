@@ -406,6 +406,13 @@ footer {
 .gallery {
     margin: 0 auto;
 }
+.counter {
+    margin: 0 auto;
+}
+.counter span {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .pre {
     background-color: rgb(15,15,15);
     border-width: 0px;

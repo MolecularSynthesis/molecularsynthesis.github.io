@@ -16,7 +16,7 @@ function pro2() {
                     else if (Number(img.title)==20) {
                         img.src = "slide/2/2concept" + 1 + ".png";
                         img.title = 1;
-                        slideNumber.innerHTML = 1;
+                        slideNumber.innerHTML = "slide1";
                         break;
                     }
                 }
@@ -35,7 +35,7 @@ function pre2() {
                     else if (Number(img.title)==1) {
                         img.src = "slide/2/2concept" + 20 + ".png";
                         img.title = 20;
-                        slideNumber.innerHTML = 20;
+                        slideNumber.innerHTML = "slide20";
                         break;
                     }
                 }
