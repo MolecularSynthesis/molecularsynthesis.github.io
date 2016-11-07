@@ -404,7 +404,7 @@ footer {
 /*----------------------------------AGGIORNAMENTI---------------------------------------*/
 /*GALLERIE IMMAGINI*/ 
 #imgPanel1, #imgPanel2 {
-    width: auto;
+    width: 75%;
     margin: 0 auto;
 }
 .aggiornamento{
