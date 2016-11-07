@@ -415,8 +415,7 @@ footer {
 .counter span {
     display: inline-block;
     text-align: center;
-    vertical-align: center;
-    padding-top:15px;
+    vertical-align: middle;
     padding-left:100px;
 }
 .pre {
