@@ -404,8 +404,7 @@ footer {
 /*----------------------------------AGGIORNAMENTI---------------------------------------*/
 /*GALLERIE IMMAGINI*/ 
 .gallery {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .pre {
     float:left;
