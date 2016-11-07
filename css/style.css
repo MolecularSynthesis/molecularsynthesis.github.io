@@ -405,7 +405,7 @@ footer {
 /*GALLERIE IMMAGINI*/ 
 .gallery {
     margin: 0 auto;
-    overflow: hidden;
+    /*per altezza uguale*/
     display: relative;
 }
 .pre {
@@ -418,7 +418,7 @@ footer {
     overflow: hidden;
     text-align: center;
     vertical-align: middle;
-    
+    /*per altezza uguale*/
     display: block;
     position: absolute;
     height: 100%;
@@ -438,7 +438,7 @@ button.pre:hover {
     overflow: hidden;
     text-align: center;
     vertical-align: middle;
-    
+    /*per altezza uguale*/
     display: block;
     position: absolute;
     height: 100%;
