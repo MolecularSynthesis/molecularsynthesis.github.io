@@ -405,6 +405,7 @@ footer {
 /*GALLERIE IMMAGINI*/ 
 .gallery {
     margin: 0 auto;
+    overflow: hidden;
 }
 .pre {
     float:left;
@@ -412,7 +413,8 @@ footer {
     border-width: 0px;
     color: white;
     width: 40px;
-    height: inherit;
+    height: 500px;
+    overflow: hidden;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -423,7 +425,8 @@ button.pre:hover {
     border-width: 0px;
     color: white;
     width: 40px;
-    height: inherit;
+    height: 500px;
+    overflow: hidden;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
