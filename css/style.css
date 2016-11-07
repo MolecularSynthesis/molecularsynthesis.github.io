@@ -405,14 +405,6 @@ footer {
 /*GALLERIE IMMAGINI*/ 
 .gallery {
     margin: 0 auto;
-    
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
- 
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
 }
 .pre {
     float:left;
@@ -423,10 +415,6 @@ footer {
     overflow: hidden;
     text-align: center;
     vertical-align: middle;
-    
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
 }
 button.pre:hover {
     background-color: rgb(80,80,80);
@@ -440,20 +428,13 @@ button.pre:hover {
     overflow: hidden;
     text-align: center;
     vertical-align: middle;
-    
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
 }
 button.pro:hover {
     background-color: rgb(80,80,80);
 }
 #imgPanel1, #imgPanel2 {
-    height: 100%;
+    width: 75%;
     float: left;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
 }
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
