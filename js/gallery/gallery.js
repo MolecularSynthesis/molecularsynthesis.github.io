@@ -18,7 +18,7 @@ function pro1() {
                     }
                 }
             }
-function pre2() {
+function pre1() {
                 var img = document.getElementById("imgPanel1");
                 var slideNumber = document.getElementById("slideNumber1");
                 for (i=19; i>=1; i--) {
