@@ -410,10 +410,20 @@ footer {
 .pre {
     float:left;
     background-color: rgb(15,15,15);
+    border-width: 0px;
+    color: white;
+}
+.pre:hover {
+    background-color: rgb(50,50,50);
 }
 .pro{
     float:left;
     background-color: rgb(15,15,15);
+    border-width: 0px;
+    color: white;
+}
+.pre:hover {
+    background-color: rgb(50,50,50);
 }
 #imgPanel1, #imgPanel2 {
     width: 75%;
