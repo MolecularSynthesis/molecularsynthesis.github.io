@@ -454,7 +454,6 @@ button.pro:hover {
     /*per altezza uguale*/
     display: block;
     position: absolute;
-    height: 100%;
     right: 0px;
     left: 0px;
 }
