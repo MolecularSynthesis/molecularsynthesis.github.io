@@ -453,9 +453,6 @@ button.pro:hover {
     float: left;
     /*per altezza uguale*/
     display: block;
-    position: absolute;
-    right: 0px;
-    left: 0px;
 }
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
