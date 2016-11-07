@@ -15,11 +15,11 @@
     background-color: rgb(15,15,15)!important;
     color: white !important;
 }
-a {
+.blackLink {
     color: rgb(15,15,15);
     text-decoration: underline;
 }
-a:hover {
+.blackLink:hover {
     color: rgb(160,160,160);
     text-decoration: none;
 }
