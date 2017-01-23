@@ -33,6 +33,12 @@
 }
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
+/*Mette hamburger icon sotto gli 899px*/
+@media (min-width: 768px) and (max-width: 899px) {
+   .collapse {
+       display: none !important;
+   }
+}
 /*Navbar BRAND PC scrolldown*/
 @media (min-width: 900px) {
         .past-main {
