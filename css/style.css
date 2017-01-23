@@ -91,6 +91,12 @@
         text-align: center;
     }
 }
+/* rimuovi titolo su smartphone */
+@media (max-width: 900px) {
+    .nav-title{
+        display:none;
+    }
+
 /* rimuovi brand su pc*/
 @media (min-width: 900px) {
     .navbar-brand{
