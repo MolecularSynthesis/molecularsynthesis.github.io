@@ -34,7 +34,7 @@
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
-@media (min-width: 768px) {
+@media (min-width: 900px) {
         .past-main {
         background-color: rgb(15,15,15)!important;
         /*border-bottom: 0.3px solid white !important;*/
@@ -71,7 +71,7 @@
         display: block;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     .nav-title {
         display: none;
     }
@@ -80,7 +80,7 @@
 .navbar {
     padding-top: 7px;
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -92,7 +92,7 @@
     }
 }
 /* rimuovi brand su pc*/
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .navbar-brand{
         display:none;
     }
@@ -101,7 +101,7 @@
     }
 }
 /*allineamento elementi menù*/
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .navbar-nav li{
         margin-left: 50px;
     }
@@ -110,7 +110,7 @@
         margin-left: -48px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     .navbar-nav li{
         margin-left: 10px;
     }
@@ -121,14 +121,14 @@
     }
 }
 /*colori*/
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     .navbar-inverse {
         background-color: rgb(15,15,15);
         border-color: transparent;
         border-bottom: 0.3px solid white;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .navbar-inverse {
         background-color: transparent;
         border-color: transparent;
@@ -216,7 +216,7 @@
 
 /*SEZIONI*/
 /*CHISIAMO BIANCO*/
-/*@media (min-width: 768px) {
+/*@media (min-width: 900px) {
     .chisiamo {
         padding-top: 90px;
     }
@@ -270,7 +270,7 @@
     text-align: left;
     padding-left: 15px;
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     .chisiamo p {
         margin-bottom: 30px;
         text-align: left;
@@ -314,7 +314,7 @@
     padding-top:25px;
     margin-bottom: 30px;
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     .descrizione h4 {
         font-size: 20px;
         text-align: center;
