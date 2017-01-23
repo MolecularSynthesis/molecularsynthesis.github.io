@@ -34,7 +34,7 @@
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
-@media (min-width: 768px) {
+@media (min-width: 900px) {
         .past-main {
         background-color: rgb(15,15,15)!important;
         /*border-bottom: 0.3px solid white !important;*/
@@ -52,7 +52,7 @@
     }
     .nav-title a {
         display: block;
-        color: white;
+        color: white!important;
         font-family: "Courier New", monospace;
         font-size: 20px;
         font-weight: 500;
@@ -62,8 +62,8 @@
         padding-top: 18px !important;*/
     }
     .nav-title a:hover {
-        text-decoration: none;
-        color: #999999;
+        text-decoration: none!important;
+        color: #999999!important;
     }
     .nav-title span {
         color: #999999;
