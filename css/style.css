@@ -73,7 +73,7 @@
 }
 @media (max-width: 899px) {
     .nav-title {
-        display: none;
+        display: none!important;
     }
 }
 /*allineamento elementi navbar su pc*/
