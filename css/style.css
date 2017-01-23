@@ -34,7 +34,7 @@
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Navbar BRAND PC scrolldown*/
-@media (min-width: 900px) {
+@media (min-width: 768px) {
         .past-main {
         background-color: rgb(15,15,15)!important;
         /*border-bottom: 0.3px solid white !important;*/
@@ -71,7 +71,7 @@
         display: block;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 767px) {
     .nav-title {
         display: none;
     }
@@ -80,7 +80,7 @@
 .navbar {
     padding-top: 7px;
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -91,14 +91,8 @@
         text-align: center;
     }
 }
-/* rimuovi titolo su smartphone */
-@media (max-width: 900px) {
-    .nav-title{
-        display:none;
-    }
-
 /* rimuovi brand su pc*/
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     .navbar-brand{
         display:none;
     }
@@ -107,7 +101,7 @@
     }
 }
 /*allineamento elementi menù*/
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     .navbar-nav li{
         margin-left: 50px;
     }
@@ -116,7 +110,7 @@
         margin-left: -48px;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 767px) {
     .navbar-nav li{
         margin-left: 10px;
     }
@@ -127,14 +121,14 @@
     }
 }
 /*colori*/
-@media (max-width: 900px) {
+@media (max-width: 767px) {
     .navbar-inverse {
         background-color: rgb(15,15,15);
         border-color: transparent;
         border-bottom: 0.3px solid white;
     }
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     .navbar-inverse {
         background-color: transparent;
         border-color: transparent;
