@@ -37,7 +37,7 @@
 @media (min-width: 768px) {
         .past-main {
         background-color: rgb(15,15,15)!important;
-        border-bottom: 0.3px solid white !important;
+        /*border-bottom: 0.3px solid white !important;*/
         -webkit-transition-duration: 1s; /* Safari */
         transition-duration: 1s;
         opacity: 0.9;
