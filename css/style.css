@@ -99,8 +99,8 @@
         padding-top: 18px !important;*/
     }
     .nav-title a:hover {
-        text-decoration: none!important;
-        color: #999999!important;
+        text-decoration: underline!important;
+        color: white!important;
     }
     .nav-title span {
         color: #999999;
