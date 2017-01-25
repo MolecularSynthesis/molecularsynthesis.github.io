@@ -278,7 +278,7 @@
     text-decoration: none;
 }
 #down a:hover {
-    color: #999999;
+    text-decoration: underline;
 }
 
 /*SEZIONI*/
