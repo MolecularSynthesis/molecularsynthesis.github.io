@@ -347,12 +347,12 @@
     border-bottom: 1px solid rgb(15,15,15);
 }
 
-.profilo img {
+/*.profilo img {
     filter: grayscale(100%)!important;
 }
 .profilo:hover img {
     filter: grayscale(0%)!important;
-}
+}*/
 
 
 .descrizione {
