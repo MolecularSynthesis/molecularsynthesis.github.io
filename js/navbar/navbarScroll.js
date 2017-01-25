@@ -8,8 +8,14 @@ $(window).on('scroll',function(){
     stop = Math.round($(window).scrollTop());
     if (stop > mainbottom) {
         $('.navbar').addClass('past-main');
+        $('.menu').removeClass('inverse');
+        $('.menu2').removeClass('nav-title-inverse');
+        $('.menu2').addClass('nav-title');
     } else {
         $('.navbar').removeClass('past-main');
+        $('.menu').addClass('inverse');
+        $('.menu2').addClass('nav-title-inverse');
+        $('.menu2').removeClass('nav-title');
    }
 
 });
