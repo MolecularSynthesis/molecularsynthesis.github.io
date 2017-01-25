@@ -347,6 +347,14 @@
     border-bottom: 1px solid rgb(15,15,15);
 }
 
+div .profilo .foto {
+    filter: grayscale(100%);
+}
+div .profilo:hover .foto {
+    filter: grayscale(0%);
+}
+
+
 .descrizione {
     padding-top:25px;
     margin-bottom: 30px;
