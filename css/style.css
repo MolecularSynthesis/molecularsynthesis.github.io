@@ -42,6 +42,9 @@
 .imgPortfolio {
     max-width: 100%;
 }
+.last {
+    padding-bottom: 50px;
+}
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Mette hamburger icon sotto gli 899px*/
