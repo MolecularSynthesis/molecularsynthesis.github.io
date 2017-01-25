@@ -39,6 +39,9 @@
         color: rgb(100,100,100)!important;
     }
 }
+.imgPortfolio {
+    width: 100%;
+}
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Mette hamburger icon sotto gli 899px*/
