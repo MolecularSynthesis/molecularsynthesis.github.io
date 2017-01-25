@@ -46,7 +46,11 @@
     padding-bottom: 50px;
 }
 .gif {
-    
+    background: url(/imgs/Plustic_Magazine.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
