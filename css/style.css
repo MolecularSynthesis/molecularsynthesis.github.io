@@ -31,18 +31,12 @@
     color: rgb(160,160,160);
     text-decoration: none;
 }
-.inverse {
-    color: rgb(15,15,15)!important;
-}
-.inverse:hover {
-    color: rgb(100,100,100)!important;
-}
-@media (max-width: 899px) {
-    inverse {
-        color: #999999!important;
+@media (min-width: 900px) {
+    .inverse {
+        color: rgb(15,15,15)!important;
     }
     .inverse:hover {
-        color: white!important;
+        color: rgb(100,100,100)!important;
     }
 }
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
