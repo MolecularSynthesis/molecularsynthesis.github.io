@@ -37,6 +37,14 @@
 .inverse:hover {
     color: rgb(100,100,100)!important;
 }
+@media (max-width: 899px) {
+    inverse {
+        color: #999999!important;
+    }
+    .inverse:hover {
+        color: white!important;
+    }
+}
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Mette hamburger icon sotto gli 899px*/
