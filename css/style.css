@@ -352,6 +352,9 @@
     margin-bottom: 30px;
 }
 @media (max-width: 899px) {
+    .descrizione h3 {
+        text-align: center;
+    }
     .descrizione h4 {
         font-size: 20px;
         text-align: center;
@@ -360,6 +363,21 @@
         margin-top: -5px;
         text-align: center;
     }
+}
+
+@media (min-width: 900px) {
+    .descrizione h3 {
+        padding-top:50px;
+    }
+}
+
+.descrizione h3 a{
+    text-decoration: none;
+    color: #555555;
+}
+.descrizione h3 a:hover{
+    text-decoration: none;
+    color: #333;
 }
 
 .descrizione h4 {
