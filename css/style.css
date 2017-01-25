@@ -45,19 +45,21 @@
 .last {
     padding-bottom: 50px;
 }
-.gifAggiornamenti {
-    background: url(/imgs/Plustic_Magazine.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.gifPortfolio {
-    background: url(/imgs/bottiglia.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+@media (min-width: 900px) {
+    .gifAggiornamenti {
+        background: url(/imgs/Plustic_Magazine.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .gifPortfolio {
+        background: url(/imgs/bottiglia.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 .white {
     background-color: white!important;
