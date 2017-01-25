@@ -24,6 +24,8 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
         <!--favicon-->
         <link rel="icon" type="image/png" href="/imgs/favicon.png">
+        <!--script galleria immagini-->
+        <script src="/js/gallery/gallery.js"></script>
     </head>
     <body>
         <!--NavBar-->
@@ -86,32 +88,41 @@
                 </div>
             </div>
         </div>
-        <!--Aggiornamento 4-->
+        <!--Aggiornamento 1-->
         <div class="container-fluid aggiornamento" style="margin-top:50px;">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-2 descrizione">
-                    <h4>Presentazione macchina comunicativa</h4>
-                    <h5><a target="_blank"  href="/download/04_gruppo8_macchina.pdf" class="slack">Download</a></h5>
-                    <p>Presentazione concept e progetto macchina comunicativa.</p>
-                    <p class="eng">16 Dicembre 2016</p>
+                <div class="col-xs-12 col-sm-7 col-sm-offset-1">
+                    <div class="gallery">
+                        <img id="imgPanel1" src="slide/1/1ricerca1.png" title="1">
+                        <div class="counter" style="display:table;">
+                            <button class="pre" onclick="pre1()" style="display:table-cell;"><</button>
+                            <span id="slideNumber1" style="display:table-cell;">slide1</span>
+                            <button class="pro" onclick="pro1()" style="display:table-cell;">></button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!--Aggiornamento 3-->
-        <div class="container-fluid aggiornamento" style="margin-top:50px;">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-2 descrizione">
-                    <h4>Presentazione 18 Novembre 2016</h4>
-                    <h5><a target="_blank"  href="/download/03_gruppo8_presentazione.mp4" class="slack">Download</a></h5>
-                    <p>Presentazione</p>
-                    <p class="eng">Presentazione 18 Novembre 2016</p>
+                <div class="col-xs-12 col-sm-4 descrizione">
+                    <h4>Presentazione ricerca</h4>
+                    <h5><a target="_blank" href="/download/01_gruppo8_ricerca.pdf" class="slack">Download</a></h5>
+                    <p>11 ottobre 2016<br>La bottiglia di plastica presenta caratteristiche e valori ambivalenti. I suoi punti di forza sono anche i punti di debolezza.<br>In questa ricerca si è provato ad approfondire entrambi gli aspetti per avere una visione d'insieme più ampia.</p>
+                    <p class="eng"></p>
                 </div>
             </div>
         </div>
         <!--Aggiornamento 2-->
         <div class="container-fluid aggiornamento" style="margin-top:50px;">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-2 descrizione">
+                <div class="col-xs-12 col-sm-7 col-sm-offset-1">
+                    <div class="gallery">
+                        <img id="imgPanel2" src="slide/2/2concept1.png" title="1">
+                        <div class="counter" style="display:table;">
+                            <button class="pre" onclick="pre2()" style="display:table-cell;"><</button>
+                            <span id="slideNumber2" style="display:table-cell;">slide1</span>
+                            <button class="pro" onclick="pro2()" style="display:table-cell;">></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 descrizione">
                     <h4>Presentazione Concept</h4>
                     <h5><a target="_blank"  href="/download/02_gruppo8_concept.pdf" class="slack">Download</a></h5>
                     <p>28 ottobre 2016<br>Si restringe il campo di ricerca puntando sui valori di protezione, sostenibilità e rigenerazione.<br>La <b>protezione</b>, il fondo su cui poggia la bottiglia, rappresenta il valore d'uso dell'oggetto.<br>La <b>sostenibilità</b> è il collo della bottiglia; non si può non parlarne. Nel caso di plustic il concetto di "protezione" vale infatti sia nei confronti del contenuto della bottiglia, sia per quanto riguarda l'ambiente.<br>La <b>rigenerazione</b> è il valore fondante, il plus, del nostro brand che si impegna a costruire un'economia circolare il cui fine ultimo è generare nuovo valore dall'esistente, l'"anello" della bottiglia, da cui può sgorgare nuova vita.</p>
@@ -119,14 +130,45 @@
                 </div>
             </div>
         </div>
-        <!--Aggiornamento 1 - Ricerca-->
+        <!--Aggiornamento 3-->
         <div class="container-fluid aggiornamento" style="margin-top:50px;">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-2 descrizione">
-                    <h4>Presentazione ricerca</h4>
-                    <h5><a target="_blank" href="/download/01_gruppo8_ricerca.pdf" class="slack">Download</a></h5>
-                    <p>La bottiglia di plastica presenta caratteristiche e valori ambivalenti. I suoi punti di forza sono anche i punti di debolezza.<br>In questa ricerca si è provato ad approfondire entrambi gli aspetti per avere una visione d'insieme più ampia.</p>
-                    <p class="eng">11 ottobre 2016</p>
+                <!--<div class="col-xs-12 col-sm-7 col-sm-offset-1">
+                    <div class="gallery">
+                        <img id="imgPanel2" src="slide/2/2concept1.png" title="1">
+                        <div class="counter" style="display:table;">
+                            <button class="pre" onclick="pre2()" style="display:table-cell;"><</button>
+                            <span id="slideNumber2" style="display:table-cell;">slide1</span>
+                            <button class="pro" onclick="pro2()" style="display:table-cell;">></button>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-xs-12 col-sm-4 descrizione">
+                    <h4>Presentazione 18 Novembre 2016</h4>
+                    <h5><a target="_blank"  href="/download/03_gruppo8_presentazione.mp4" class="slack">Download</a></h5>
+                    <p>Presentazione</p>
+                    <p class="eng">Presentazione 18 Novembre 2016</p>
+                </div>
+            </div>
+        </div>
+        <!--Aggiornamento 4-->
+        <div class="container-fluid aggiornamento" style="margin-top:50px;">
+            <div class="row">
+                <!--<div class="col-xs-12 col-sm-7 col-sm-offset-1">
+                    <div class="gallery">
+                        <img id="imgPanel2" src="slide/2/2concept1.png" title="1">
+                        <div class="counter" style="display:table;">
+                            <button class="pre" onclick="pre2()" style="display:table-cell;"><</button>
+                            <span id="slideNumber2" style="display:table-cell;">slide1</span>
+                            <button class="pro" onclick="pro2()" style="display:table-cell;">></button>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-xs-12 col-sm-4 descrizione">
+                    <h4>Presentazione macchina comunicativa</h4>
+                    <h5><a target="_blank"  href="/download/04_gruppo8_macchina.pdf" class="slack">Download</a></h5>
+                    <p>Presentazione concept e progetto macchina comunicativa.</p>
+                    <p class="eng">16 Dicembre 2016</p>
                 </div>
             </div>
         </div>
