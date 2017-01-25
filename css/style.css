@@ -347,11 +347,11 @@
     border-bottom: 1px solid rgb(15,15,15);
 }
 
-.profilo .foto {
-    filter: grayscale(100%);
+.profilo img {
+    filter: grayscale(100%)!important;
 }
-.profilo:hover .foto {
-    filter: grayscale(0%);
+.profilo:hover img {
+    filter: grayscale(0%)!important;
 }
 
 
