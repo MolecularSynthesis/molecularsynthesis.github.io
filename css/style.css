@@ -62,6 +62,9 @@
 .white {
     background-color: white!important;
 }
+.centro {
+    margin: 0 auto;
+}
 /*---------------------------------------ELEMENTI COMUNI + ABOUT----------------------------------------------------é/
 /*NAVBAR*/
 /*Mette hamburger icon sotto gli 899px*/
