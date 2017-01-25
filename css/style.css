@@ -588,4 +588,5 @@ button.pro:hover {
 .aggiornamento{
     border-bottom: 1px solid rgb(15,15,15);
     padding-bottom: 50px;
+    background-color: white!important;
 }
