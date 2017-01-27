@@ -91,7 +91,9 @@
             <div class="row">
                 <div class="col-sm-offset-3 col-sm-6 descrizione" style="padding-left: 30px;">
                     <h3><a href="#">Titolo</a></h3>
-                    <p style="margin-bottom:50px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum scelerisque elit sed varius. Suspendisse rutrum lacinia mi, id interdum sapien vulputate et. Etiam vitae ornare lorem, et sagittis libero. Mauris iaculis venenatis risus, aliquam sagittis neque elementum vitae. Nullam libero ipsum, dictum ac leo et, malesuada tincidunt leo. Mauris convallis pretium mauris, sed porttitor nisl dignissim id. Donec venenatis dolor varius elit congue, fermentum bibendum velit posuere. Etiam sit amet arcu in nisl lobortis pharetra eu non nisi. Pellentesque a nibh at purus aliquet porttitor ut et magna. Sed hendrerit, libero sed cursus laoreet, lectus est congue dolor, eget efficitur enim elit vel lorem. In nunc lacus, lobortis a finibus et, lobortis vitae tortor. Nulla facilisi. Integer nec mauris nisi. </p>
+                    <p style="margin-bottom:50px;"><br>CODICE
+Per la realizzazione della macchina sono stati utilizzati Arduino per programmare la componente  elettronica e Processing per la parte visiva.
+</p>
                 </div>
             </div>
         </div>
@@ -107,7 +109,20 @@
         <div class="container-fluid">
             <div class="row last">
                 <div class="col-sm-offset-3 col-sm-6 descrizione" style="padding-left: 30px;">
-                    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum scelerisque elit sed varius. Suspendisse rutrum lacinia mi, id interdum sapien vulputate et. Etiam vitae ornare lorem, et sagittis libero. Mauris iaculis venenatis risus, aliquam sagittis neque elementum vitae. Nullam libero ipsum, dictum ac leo et, malesuada tincidunt leo. Mauris convallis pretium mauris, sed porttitor nisl dignissim id. Donec venenatis dolor varius elit congue, fermentum bibendum velit posuere. Etiam sit amet arcu in nisl lobortis pharetra eu non nisi. Pellentesque a nibh at purus aliquet porttitor ut et magna. Sed hendrerit, libero sed cursus laoreet, lectus est congue dolor, eget efficitur enim elit vel lorem. In nunc lacus, lobortis a finibus et, lobortis vitae tortor. Nulla facilisi. Integer nec mauris nisi. </p>
+                    <p><br>
+La meccanica della macchina comunicativa, che richiama una stampante 3D o un pantografo,  vuole rimandare alla produzione di bottiglie di plastica. Una produzione complessa e che richiede un’alta precisione dei macchinari.<br><br><br>
+Nel corso della progettazione e realizzazione del prototipo sono stati affrontati, e risolti, diversi problemi tecnici e relativi all’esperienza utente.
+<br><br>
+All’ingresso dello stand ci si trova di fronte a delle infografiche, realizzate con Processing che mostrano i dati relativi a produzione e riciclo di bottiglie di plastica in Italia. 
+Questi dati sono divisi, sulle tre pareti, in passato (2007), presente (2017) e futuro (2027) , in modo tale che si possa fare un confronto di come cambiano alla stessa data e ora di anni diversi. La parete del futuro mostra invece la volontà e l’impegno di Plustic nel migliorare ulteriormente questi valori.
+<br><br>
+                        I dati sono collegati, tramite Arduino, alla macchina comunicativa. 
+Un sensore (si è optato per un fotoresistenza dopo aver valutato, sensori a infrarossi e di prossimità)  attiva la macchina all’inserimento della bottiglia e aggiorna i dati del pannello relativo al presente innescando un “buzz” che fa fluttuare i dati.
+<br><br>
+La macchina riceve i dati relativi all’ora, al giorno e al numero di bottiglie riciclate nel giorno fino a quel momento e le stampa sulla bottiglia utilizzando inkShield (preferito all’incisione laser per questioni di sicurezza e all’utilizzo di una penna mossa da motori per questione di precisione) che trasferisce i dati ad una cartuccia HP azionata tramite un motore.
+<br><br>
+Una volta stampata, la bottiglia viene riportata verso l’alto da dei motori stepper collegati a due viti. Una volta che la bottiglia viene ripresa la macchina ritorna nella posizione iniziale e aspetta un’altra bottiglia.
+</p>
                 </div>
             </div>
         </div>
